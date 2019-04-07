@@ -275,7 +275,7 @@
       buildQuizResults: function () {
         var resultsHTML = '',
           correctAnswerCount = 0,
-          totalScore;
+          int totalScore;
 
         function _checkAnswers() {
           //check each questions data
@@ -291,7 +291,7 @@
               correctAnswerCount = correctAnswerCount;
             }
           } );
-          int totalScore = ( correctAnswerCount / questionCount ) * 100;
+          totalScore = ( correctAnswerCount / questionCount ) * 100;
         }
         _checkAnswers();
         /* build quiz results
