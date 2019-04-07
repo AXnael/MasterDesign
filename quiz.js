@@ -302,19 +302,19 @@
         resultsHTML += '<h1 class="' + class_quizScoreRank + '">';
         if ( totalScore > 80 ) {
           //rank 1: 80-100
-          resultsHTML += plugin.config.quizScoreRank_text.a+" "+totalScore;
+          resultsHTML += plugin.config.quizScoreRank_text.a+" - "+totalScore;
         } else if ( totalScore > 60 ) {
           //rank 2: 60-79
-          resultsHTML += plugin.config.quizScoreRank_text.b;
+          resultsHTML += plugin.config.quizScoreRank_text.b+" - "+totalScore;
         } else if ( totalScore > 40 ) {
           //rank 3: 40-59
-          resultsHTML += plugin.config.quizScoreRank_text.c;
+          resultsHTML += plugin.config.quizScoreRank_text.c+" - "+totalScore;
         } else if ( totalScore > 20 ) {
           //rank 4: 20-39
-          resultsHTML += plugin.config.quizScoreRank_text.d;
+          resultsHTML += plugin.config.quizScoreRank_text.d+" - "+totalScore;
         } else {
           //rank 5: 0-19
-          resultsHTML += plugin.config.quizScoreRank_text.f;
+          resultsHTML += plugin.config.quizScoreRank_text.f+" - "+totalScore;
         }
         resultsHTML += '</h1>';
 
