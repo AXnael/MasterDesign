@@ -47,7 +47,8 @@
           b: "Kerja Bagus!",
           c: "Setidaknya kamu enggak gagal.",
           d: "Kamu harus belajar lebih giat.",
-          f: "Kamu serius waktu ngerjain quiz ini?"
+          f: "Kamu serius waktu ngerjain quiz ini?",
+          g: "Dikit lagi kamu bisa dapet nilai sempurna!"
         },
 
         /* Options
@@ -303,9 +304,12 @@
 
         //quiz score rank
         resultsHTML += '<h1 class="' + class_quizScoreRank + '">';
-        if ( totalScore > 80 ) {
-          //rank 1: 80-100
+        if ( totalScore == 100 ) {
+          //top rank
           resultsHTML += plugin.config.quizScoreRank_text.a+" - "+totalScore;
+        } else if ( totalScore > 80 ) {
+          //rank 1: 80-100
+          resultsHTML += plugin.config.quizScoreRank_text.g+" - "+totalScore;
         } else if ( totalScore > 60 ) {
           //rank 2: 60-79
           resultsHTML += plugin.config.quizScoreRank_text.b+" - "+totalScore;
