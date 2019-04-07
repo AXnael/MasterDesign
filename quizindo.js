@@ -48,7 +48,7 @@
           c: "Setidaknya kamu enggak gagal.",
           d: "Kamu harus belajar lebih giat.",
           f: "Kamu serius waktu ngerjain quiz ini?",
-          g: "Dikit lagi kamu bisa dapet nilai sempurna!"
+          g: "Sedikit lagi.."
         },
 
         /* Options
