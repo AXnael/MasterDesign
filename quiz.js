@@ -302,7 +302,7 @@
         resultsHTML += '<h1 class="' + class_quizScoreRank + '">';
         if ( totalScore > 80 ) {
           //rank 1: 80-100
-          resultsHTML += "a".plugin.config.quizScoreRank_text.a;
+          resultsHTML += plugin.config.quizScoreRank_text.a+"asd";
         } else if ( totalScore > 60 ) {
           //rank 2: 60-79
           resultsHTML += plugin.config.quizScoreRank_text.b;
