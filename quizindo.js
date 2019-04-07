@@ -3,13 +3,11 @@
  * author  : Chyno Deluxe
  * version : 1.0.0
  *
- * copyright (c) 2016 Chyno Deluxe - http://www.chynodeluxe.com
- * license MIT
- */
-
-/*!
  * Penjelasan dan beberapa kalimat diubah kedalam bahasa Indonesia oleh saya (Moccatory)
  * Penambahan score dihasil akhir, agar user yang mengerjakan quiz tau berapa nilai yang didapat
+ *
+ * copyright (c) 2016 Chyno Deluxe - http://www.chynodeluxe.com
+ * license MIT
  */
 
 ( function ( $ ) {
