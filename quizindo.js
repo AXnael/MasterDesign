@@ -278,7 +278,7 @@
       buildQuizResults: function () {
         var resultsHTML = '',
           correctAnswerCount = 0,
-          int totalScore;
+          totalScore;
 
         function _checkAnswers() {
           //check each questions data
