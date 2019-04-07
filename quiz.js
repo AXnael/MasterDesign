@@ -7,6 +7,11 @@
  * license MIT
  */
 
+/*!
+ * Penjelasan dan beberapa kalimat diubah kedalam bahasa Indonesia oleh saya (Moccatory)
+ * Penambahan score dihasil akhir, agar user yang mengerjakan quiz tau berapa nilai yang didapat
+ */
+
 ( function ( $ ) {
   "use strict";
   $.dlxQuiz = function ( element, options ) {
@@ -31,20 +36,20 @@
 
         /* Text
          ---------------------------*/
-        questionCount_text: "Question %current_index of %totalQuestions",
-        backButton_text: "Previous Question",
-        nextButton_text: "Next Question",
+        questionCount_text: "Pertanyaan ke %current_index dari %totalQuestions pertanyaan",
+        backButton_text: "Pertanyaan sebelumnya",
+        nextButton_text: "Pertanyaan selanjutnya",
         completeButton_text: "Finish Quiz",
-        viewResultsButton_text: "View Results",
+        viewResultsButton_text: "Lihat Hasil",
         resultsHeader_text: "Here's how you did.",
-        quizScore_text: "You answered %totalScore out of %totalQuestions questions correctly",
+        quizScore_text: "Kamu menjawab %totalScore dari %totalQuestions pertanyaan dengan benar.",
         quizScoreMessage_text: "",
         quizScoreRank_text: {
-          a: "Perfect Score!",
-          b: "Great Job!",
-          c: "At least you passed.",
-          d: "Should have studied more.",
-          f: "Did you even try?"
+          a: "Nilai Sempurna!",
+          b: "Kerja Bagus!",
+          c: "Setidaknya kamu enggak gagal.",
+          d: "Kamu harus belajar lebih giat.",
+          f: "Kamu serius waktu ngerjain quiz ini?"
         },
 
         /* Options
