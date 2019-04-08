@@ -39,14 +39,14 @@
         nextButton_text: "Pertanyaan selanjutnya",
         completeButton_text: "Finish Quiz",
         viewResultsButton_text: "Lihat Hasil",
-        resultsHeader_text: "Here's how you did.",
+        resultsHeader_text: "Ini yang tadi kamu kerjakan.",
         quizScore_text: "Kamu menjawab %totalScore dari %totalQuestions pertanyaan dengan benar.",
         quizScoreMessage_text: "",
         quizScoreRank_text: {
           a: "Nilai Sempurna!",
           b: "Kerja Bagus!",
-          c: "Setidaknya kamu enggak gagal.",
-          d: "Kamu harus belajar lebih giat.",
+          c: "Setidaknya kamu enggak gagal",
+          d: "Kamu harus belajar lebih giat",
           f: "Kamu serius waktu ngerjain quiz ini?",
           g: "Sedikit lagi.."
         },
@@ -306,7 +306,7 @@
         resultsHTML += '<h1 class="' + class_quizScoreRank + '">';
         if ( totalScore == 100 ) {
           //top rank
-          resultsHTML += plugin.config.quizScoreRank_text.a+" - "+totalScore;
+          resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.a;
         } else if ( totalScore > 80 ) {
           //rank 1: 80-100
           resultsHTML += plugin.config.quizScoreRank_text.g+" - "+totalScore;
@@ -540,11 +540,11 @@
             //if answer was incorrect
             if ( !questions[ index ].answerCorrect ) {
               //display user answer
-              resultsHTML += '<strong>Your Answer: </strong>';
+              resultsHTML += '<strong>Jawabanmu: </strong>';
               resultsHTML += questions[ index ].selected + '<br>';
             }
             //display correct answer
-            resultsHTML += '<strong>Correct Answer: </strong>';
+            resultsHTML += '<strong>Jawaban yang benar: </strong>';
             resultsHTML += questions[ index ].a + '<br>';
             //close p tag
             resultsHTML += '</p>';
