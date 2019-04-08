@@ -309,19 +309,19 @@
           resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.a;
         } else if ( totalScore > 80 ) {
           //rank 1: 80-100
-          resultsHTML += plugin.config.quizScoreRank_text.g+" - "+totalScore;
+          resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.g;
         } else if ( totalScore > 60 ) {
           //rank 2: 60-79
-          resultsHTML += plugin.config.quizScoreRank_text.b+" - "+totalScore;
+          resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.b;
         } else if ( totalScore > 40 ) {
           //rank 3: 40-59
-          resultsHTML += plugin.config.quizScoreRank_text.c+" - "+totalScore;
+          resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.c;
         } else if ( totalScore > 20 ) {
           //rank 4: 20-39
-          resultsHTML += plugin.config.quizScoreRank_text.d+" - "+totalScore;
+          resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.d;
         } else {
           //rank 5: 0-19
-          resultsHTML += plugin.config.quizScoreRank_text.f+" - "+totalScore;
+          resultsHTML += totalScore+" - "+plugin.config.quizScoreRank_text.f;
         }
         resultsHTML += '</h1>';
 
