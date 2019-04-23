@@ -1,4 +1,3 @@
-//<![CDATA[
 let footer = document.querySelector("footer .d-table .d-table-row .d-table-cell .container .row .col-12 .right"),
       cr = "Template by <a class='tata' href='https://moccatory.blogspot.com/' target='_blank'>Moccatory</a>";
   if (!footer) {
@@ -11,6 +10,7 @@ let footer = document.querySelector("footer .d-table .d-table-row .d-table-cell 
       footer.innerHTML = "Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel="nofollow">Moccatory</a>";
     }
   }
+//<![CDATA[
 function createCookie(name,value,days){
   if(days){var date=new Date();date.setTime(date.getTime()+(days*24*60*60*1000));var expires="; expires="+date.toGMTString()}
   else var expires="";document.cookie=name+"="+value+expires+"; path=/"
