@@ -1,0 +1,19 @@
+{
+     "name" : " Blog " ,
+     "short_name" : " Blog " ,
+     "icons" : [
+        {
+            "src" : " https://lh3.googleusercontent.com/oZEeTWh4jczKSKKhGBJ0DyVMlroRTOiELc8pGJoJ1ECJsOzqnigeAM7dqXZPEceaNoIULSFaBlyHPqY7kKjcwZ2AKmlt3gVaAIs=s192-rw-no " ,
+             "sizes" : "192x192" ,
+             "type" : "image / png"
+        },
+        {
+            "src" : " https://lh3.googleusercontent.com/oZEeTWh4jczKSKKhGBJ0DyVMlroRTOiELc8pGJoJ1ECJsOzqnigeAM7dqXZPEceaNoIULSFaBlyHPqY7kKjcwZ2AKmlt3gVaAIs=s256-rw-no " ,
+             "sizes" : "256x256" ,
+             "type" : "image / png"
+        }
+    ],
+    "theme_color" : " #ffffff " ,
+     "background_color" : " #ffffff " ,
+     "display" : "standalone" 
+}
